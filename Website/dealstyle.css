@@ -1,0 +1,178 @@
+*{
+    color: black;
+}
+#navbar_main{
+    background-color: black;
+    color: #fff;
+
+}
+a{
+    text-decoration: none;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    background-color: #860d02;
+ 
+}
+#btn{
+    background-color: #860d02;
+ 
+}
+header nav a img{
+    height: 5rem;
+}
+nav ul li {
+    font-size: 1.2rem;
+}
+
+
+
+footer {
+    background-color: black;
+}
+#abc a {
+    color: #fff;
+}
+#abc p a{
+    color: #fff;
+}
+
+footer li a{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+}
+footer h4,a i{
+    color: #fff;
+    text-decoration: none;
+}
+footer #support ul li a:hover{
+color: #fff;
+}
+footer #topbrand  ul li a:hover{
+    color: #fff;
+    }
+
+ 
+
+
+
+
+
+
+
+
+
+/* deals section start */
+.deal #vehical{
+    width: 18vw;
+    height: 93rem;
+    background-color:rgb(34, 32, 32);
+    margin-top: 0;
+    
+    float: left;
+  
+}
+#vehical .card-header{
+    background-color:  rgb(34, 32, 32);
+    
+}
+#vehical .card-header .btn{
+    color: #fff;
+    
+}
+#vehical .card-body a{
+    color: #000;
+}
+
+.deal .heading{
+    background-color: rgb(34, 32, 32);
+    height: 7rem;
+}
+.heading h1{
+    color: #fff;
+    font-size: 4rem;
+}
+#deals-section{
+    width: 82%;
+    margin-right: 0;
+    margin-top:0;
+    background-color:rgb(34, 32, 32);    
+}
+#deals-section #Box{
+    height: 30rem;
+    background-color: rgb(34, 32, 32);
+    border:2px solid #fff;
+}
+#Box .card-header{
+    border-bottom: 2px solid #fff;
+}
+#Box .card-header h1{
+    font-size: 1.4rem;
+    color: #fff;
+}
+#Box .card-body img{
+    height: 13rem;
+}
+#Box .card-body p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-bottom: .2rem;
+    color: #fff;
+}
+#Box .card-body small{
+    color: #fff;
+}
+#Box .card-body p b{
+    color:#fff;
+}
+#Box .card-footer{
+    border-top: 2px solid #fff;
+}
+#Box .card-footer .btn{
+       background-color: #770d03;
+}
+#Box .card-footer .btn a{
+    color:#fff;
+}
+#Box .card-footer .btn:hover{
+    background-color:black;
+}
+@media (max-width:600px) {
+    #vehical{
+        display: none;
+    }
+    #deals-section{
+        width: 100%;
+    }
+    
+}
+
+/* animation */
+nav ul li{
+    animation-name: menu;
+animation-duration: 2s;
+}
+
+
+@keyframes menu{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80%{
+        opacity: 0.80;
+        transform: translateX(80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(10px);
+    }
+    
+    }
+   
